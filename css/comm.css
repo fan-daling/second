@@ -1,0 +1,22 @@
+
+.my_header,.my_footer{
+	width: 100%;
+	border: 0;
+}
+
+@media (max-width:576px){
+	.my_footer{height: 49rem;}
+	.my_header{height: 18rem;}
+}
+@media (min-width:576px) {
+	.my_footer{height: 48rem;}
+	.my_header{height: 19rem;}
+}
+@media (min-width:768px) {
+	.my_footer{height: 24rem;}
+	.my_header{height: 19rem;}
+}
+@media (min-width:992px) {
+	.my_footer{height: 23rem;}
+}
+
